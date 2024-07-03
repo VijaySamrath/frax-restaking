@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,81 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+body {
+  background-color: #121212;
+  color: #157f99;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  background-color: #121212;
+  padding: 20px;
+}
+
+.header {
+  color: #00FFAB;
+}
+
+.subheader {
+  color: #584848;
+}
+
+.card {
+  padding: 20px;
+  margin-top: 20px;
+  background: #1a1a1a;
+  color: #801a1a;
+}
+
+.paper {
+  padding: 20px;
+  background: #2a2a2a;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.textfield,
+.select {
+  background: #faf8f8;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.MuiButton-containedPrimary {
+  background-color: #008CBA;
+}
+
+.heading-add {
+  color: #f51c77; 
+}
+
+.heading-stake {
+  color: #171817;
+}
+
+.heading-unstake {
+  color: #FF6347; 
+}
+
+.heading-claim {
+  color: #1E90FF;
+}
+
+.heading-total-rewards {
+  color: #8A2BE2; 
+}
+
+.MuiTypography-body1 {
+  color: #fff;
+}
+
+.rewards-box {
+  background: #2a2a2a;
+  padding: 10px;
+  border-radius: 5px;
 }
