@@ -1,3 +1,49 @@
+Staking DApp
+Overview
+This Staking DApp is designed to enable users to stake their tokens, earn rewards, and manage their staking activities through an intuitive and user-friendly interface. Built with React and using the ethers.js library, it interacts with Ethereum smart contracts to provide decentralized finance functionalities. The application is deployed on the FraxTAL L2 Blockchain, providing faster transactions and lower fees.
+
+Vision
+The vision of this project is to create a seamless and efficient staking platform that allows users to easily manage their staking activities and earn rewards. By leveraging the power of blockchain and smart contracts, we aim to provide a transparent, secure, and user-friendly staking solution.
+
+Problem Statement
+In the rapidly growing field of decentralized finance (DeFi), staking has become a popular way for users to earn rewards by locking up their tokens. However, many existing staking platforms suffer from poor user interfaces, complex interactions, and lack of support for multiple tokens. This project aims to address these issues by providing:
+
+User-friendly Interface: A clean, modern, and responsive UI that simplifies the staking process.
+Multi-token Support: Allow users to stake various types of tokens by adding support for multiple tokens dynamically.
+
+Security and Transparency: Ensure all interactions are secure and transparent through the use of fraxtal smart contracts.
+
+Features
+Connect Wallet: Connect your Ethereum wallet to the DApp to interact with the staking smart contract.
+
+Add Supported Token: Add a new token that can be staked.
+
+Stake Tokens: Stake your tokens for a specified duration (3, 6, or 12 months).
+Unstake Tokens: Unstake your tokens and retrieve your staked amount.
+Claim Rewards: Claim the rewards you have earned from staking.
+Get Total Rewards: Retrieve the total rewards for a specified token.
+
+
+Staking Contract Functionality
+stToken: As users stake their own tokens, the staking contract ensures that users receive stToken for restaking purposes.
+rewardToken: Users can claim rewardToken which is generated per minute.
+Token Addresses
+To view the tokens in MetaMask, import the following addresses:
+
+stToken Address: 0x8c1b29CA3C4852EB49485a241dfe7097e66Ce712
+Reward Token Address: 0x7499C49764294C04bB7745FDe9BE0AdAD3ABd62B
+
+Deployment
+This DApp is deployed on the FraxTAL L2 Blockchain, providing the benefits of faster transactions and lower fees.
+
+Contributions
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
+License
+This project is licensed under the MIT License.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
